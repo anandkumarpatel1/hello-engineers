@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Kristi
-- Font Author: Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights reserved. Licenced under SIL OFL v1.1
-- Font Source: http://fonts.gstatic.com/s/kristi/v17/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
