@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <section class="py-5 text-center container ">
+        <div class="row py-lg-5 ">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">
+                    HTML Basics
+                </h1>
+            </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container text text-center">
+            <div class="my-3">
+                <p class="fw-semibold">
+                    In this article, we will see the HTML Basics by understanding all the basic stuff of HTML coding.
+                    There are various tags that we must consider and include while starting to code in HTML. These tags
+                    help in the organization and basic formatting of elements in our script or web pages. These
+                    step-by-step procedures will guide you through the process of writing HTML.
+                </p>
+            </div>
+        </div>
+        <div class="container text">
+            <strong>Basic HTML Document:</strong>
+            <p>Below mentioned are the basic HTML tags that divide the whole document into various parts like
+                head, body, etc.</p>
+            <ul>
+                <li>Every HTML document begins with a HTML document tag. Although this is not mandatory, it is a good
+                    convention to start the document with this below-mentioned tag. Please refer to the HTML Doctypes
+                    article for more information related to Doctypes.</li>
+
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            HTML
+                        </h5>
+                        <pre>
+<span>&lt;</span>!DOCTYPE html>
+                        </pre>
+                    </div>
+                </div>
+                <li><strong><span><</span>html>: </strong> Every HTML code must be enclosed between basic HTML tags. It
+                    begins with <span>
+                        <</span>html> and ends with <span>
+                                <</span>/html> tag.</li>
+                <li><strong><span>
+                            <</span>head>: </strong> The head tag comes next which contains all the header information
+                    of the web page or documents like the title of the page and other miscellaneous information. This
+                    information is enclosed within the head tag which opens with <span>
+                        <</span>head> and ends with <span>
+                                <<span>/head>. The contents will of this tag will be explained in the later sections
+                                    of the course.</li>
+                <li>
+                    <strong><span>
+                            <</span>title>: </strong> We can mention the title of a web page using the <span>
+                        <</span>title> tag. This is header information and hence is mentioned within the header tags.
+                            The tag begins with <span>
+                                <</span>title> and ends with <span>
+                                        <</span>/title>.
+                </li>
+                <li>
+                    <strong><span>
+                            <</span>body>: </strong> Next step is the most important of all the tags we have learned so
+                    far. The body tag contains the actual body of the page which will be visible to all the users. This
+                    opens with
+
+                    <body> and ends with </body>. All content enclosed within this tag will be shown on the web page be
+                    it writings or images or audio or videos or even links. We will see later in the section how using
+                    various tags we may insert mentioned contents into our web pages.
+                </li>
+            </ul>
+            <p>The whole pattern of the code will look something like the below code example.</p>
+            <p><strong>Example:</strong>This example illustrates the <strong> HTML </strong>basic structure.</p>
+        </div>
+        <div class="my-3 container text">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        HTML
+                    </h5>
+                    <pre>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>!-- Information about the page -->
+<span><</span>!--This is the comment tag-->
+	
+<span><</span>title>GeeksforGeeks<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>!--Contents of the webpage-->
+<span><</span>/body>
+
+<span><</span>/html>
+</pre>
+                </div>
+            </div>
+            <p>This code won’t display anything. It just shows the basic pattern of how to write the HTML code and will name the
+                title of the page as GeeksforGeeks. <span>
+                    << /span>!-- comment here --> is the comment tag in HTML and it doesn’t read the line present inside this tag.
+            </p>
+            <p><strong>HTML Headings:</strong>These tags help us to give headings to the content of a webpage. These tags are mainly
+                written inside the body tag. HTML provides us with six heading tags from <span>
+                    << /span>h1> to <span>
+                            << /span>h6>. Every tag displays the heading in a different style and font size.</p>
+                            <p>Most HTML heading tag that we use :- </p>
+                            <ul>
+                                <li>Heading 1</li>
+                                <li>Heading 2</li>
+                                <li>Heading 3</li>
+                            </ul>
+                            <p><strong>Example: </strong> This example illustrates the use of 6 heading tags from <span><</span>h1> to <span><</span>h6> in HTML.</p>
+                                <div class="my-3 container text">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                HTML
+                                            </h5>
+                                            <pre>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>GeeksforGeeks<span><</span>/title>
+<span><</span>/head>
+                                                
+<span><</span>body>
+<span><</span>h1>Hello GeeksforGeeks<span><</span>/h1>
+<span><</span>h2>Hello GeeksforGeeks<span><</span>/h2>
+<span><</span>h3>Hello GeeksforGeeks<span><</span>/h3>
+<span><</span>h4>Hello GeeksforGeeks<span><</span>/h4>
+<span><</span>h5>Hello GeeksforGeeks<span><</span>/h5>
+<span><</span>h6>Hello GeeksforGeeks<span><</span>/h6>
+<span><</span>/body>
+                                                
+<span><</span>/html>
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>HTML Paragraph:</strong>These tags help us to write paragraph statements on a webpage. They start with the
+                                    <span>
+                                        << /span>p> tag and ends with <span>
+                                                << /span>/p>.</p>
+                                <p><strong>HTML Break:</strong>These tags are used for inserting a single line type break. It does not have any closing
+                                    tag. In HTML the break tag is written as <span>
+                                        << /span>br>. </p>
+                                <p><strong>Example: </strong> This example illustrates the use of the <p> tag for writing a paragraph statement in HTML.</p>
+                                <div class="my-3 container text">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                HTML
+                                            </h5>
+                                            <pre>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>GeeksforGeeks<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h1>Hello GeeksforGeeks<span><</span>/h1>
+	
+
+
+<span><</span>p> A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+<span><</span>/p>
+
+
+
+
+<span><</span>/body>
+
+<span><</span>/html>
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>HTML Horizontal Line: </strong>The <span>
+                                        << /span>hr> tag is used to break the page into various parts, creating horizontal margins with help of a
+                                            horizontal line running from the left to right-hand side of the page. This is also an empty tag and doesn’t
+                                            take any additional statements.</p>
+                                <p><strong>Example</strong>This example illustrates the use of the <span>
+                                        << /span>hr> tag for the horizontal line in HTML.</p>
+                                <div class="my-3 container text">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                HTML
+                                            </h5>
+                                            <pre>
+                                                <span><</span>html>
+
+<span><</span>head>
+<span><</span>title>GeeksforGeeks<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h1>Hello GeeksforGeeks<span><</span>/h1>
+	
+
+
+<span><</span>p>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+<span><</span>/p>
+
+
+
+
+<span><</span>hr>
+	
+
+
+<span><</span>p>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+<span><</span>/p>
+
+
+
+
+<span><</span>hr>
+	
+
+
+<span><</span>p>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+A Computer Science portal for geeks<span><</span>br>
+<span><</span>/p>
+
+
+
+
+<span><</span>hr>
+<span><</span>/body>
+
+<span><</span>/html>
+
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>HTML Images:</strong>The image tag is used to insert an image into our web page. The source of the image to
+                                    be inserted is put inside the <span>
+                                        <</span>img src=”source_of_image“> tag.</p>
+                                <p>Image can be inserted in the image tag in two formats: –</p>
+                                <ul>
+                                    <li>If the image is in the same folder, then we can just write the name of the image and the format as the path.
+                                    </li>
+                                    <li>If the image is in another folder, then we do need to mention the path of the image and the image name as well
+                                        as the format of the image.</li>
+                                </ul>
+                                <p><strong>Example:</strong> This example illustrates the use of the <span>
+                                        <</span>img> tag for inserting the images in HTML</p>
+                                        <div class="my-3 container text">
+                                            <div class="card" style="width: 100%;">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        HTML
+                                                    </h5>
+                                                    <pre>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>GeeksforGeeks<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/Geek_logi_-low_res.png">
+<span><</span>/body>
+
+<span><</span>/html>
+                                                    </pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p><strong>Supports Browsers:</strong></p>
+                                        <ul>
+                                            <li>Google Chrome 93.0 & above</li>
+                                            <li>Internet Explorer 11.0</li>
+                                            <li>Microsoft Edge 93.0</li>
+                                            <li>Firefox 92.0 & above</li>
+                                            <li>Opera 79.0</li>
+                                            <li>Safari 14.1</li>
+                                        </ul>
+                                        <p>There are also various other tags in HTML to insert links, audios, and various other formatting tags that we will be
+                                            learning in the later sections.</p>
+        </div>
+    </div>
+    <div class="album py-5 bg-light">
+        <div class="container text text-center">
+            <a href="html_basic_web_comments.html">
+                <button type="button" class="btn btn-outline-success">
+                    <<< Go previous HTML Comments </button></a>
+            
+            <a href="html_basic_web_layout.html">
+                <button type="button" class="btn btn-outline-success">Go To
+                    HTML | Layout
+                    >>>
+                </button></a>
+            
+        </div>
+    </div>
+</main>
+
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

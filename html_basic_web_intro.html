@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML Introduction
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <div class="my-3">
+                    <p class="fw-semibold"><strong>HTML</strong> stands for HyperText Markup Language. It is used to
+                        design web pages using a markup language. HTML is the combination of Hypertext and Markup
+                        language. Hypertext defines the link between web pages. A markup language is used to define the
+                        text document within the tag which defines the structure of web pages. This language is used to
+                        annotate (make notes for the computer) text so that a machine can understand it and manipulate
+                        text accordingly. Most markup languages (e.g. HTML) are human-readable. The language uses tags
+                        to define what manipulation has to be done on the text. </p>
+                    <p class="fw-semibold">HTML is a markup language used by the browser to manipulate text, images, and
+                        other content, in order to display it in the required format. HTML was created by Tim
+                        Berners-Lee in 1991. The first-ever version of HTML was HTML 1.0, but the first standard version
+                        was HTML 2.0, published in 1995.</p>
+                    <img src="HTML-Released-year-11.png" alt="logo" class="img-fluid">
+                    <p class="fw-semibold"><strong>Elements and Tags:</strong> HTML uses predefined tags and elements
+                        which tell the browser how to properly display the content. Remember to include closing tags. If
+                        omitted, the browser applies the effect of the opening tag until the end of the page.</p>
+                    <img src="htmltag.png" alt="logo" class="img-fluid rounded-4">
+                    <p class="fw-semibold"><strong>HTML page structure:</strong> The basic structure of an HTML page is
+                        laid out below. It contains the essential building-block elements (i.e. doctype declaration,
+                        HTML, head, title, and body elements) upon which all web pages are created</p>
+                    <img src="HTML-Basic-Format.png" alt="logo" class="img-fluid rounded-4" width="80%">
+                </div>
+            </div>
+            <div class="container text">
+                <ul>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>!DOCTYPE html>:</strong> This is the document type declaration (not technically
+                        a tag). It declares a document as being an HTML document. The doctype declaration is not
+                        case-sensitive.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>html</strong>
+                        <html>: This is called the HTML root element. All other elements are contained within it.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>head>:</strong> The head tag contains the “behind the scenes” elements for a
+                        webpage. Elements within the head aren’t visible on the front-end of a webpage. HTML elements
+                        used inside the <span class="p">
+                            << /span>head> element include:
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>style>-</strong> This html tag allows us to insert styling into our webpages
+                        and make them appealing to look at with the help of CSS.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>title>-</strong> The title is what is displayed on the top of your browser when
+                        you visit a website and contains title of the webpage that you are viewing.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>base>-</strong> It specifies the base URL for all relative URL’s in a document.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>noscript>–</strong> Defines a section of HTML that is inserted when the
+                        scripting has been turned off in the users browser.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>script>-</strong> This tag is used to add functionality in the website with the
+                        help of JavaScript..
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>meta>-</strong> This tag encloses the meta data of the website that must be
+                        loaded every time the website is visited. For eg:- the metadata charset allows you to use the
+                        standard UTF-8 encoding in your website. This in turn allows the users to view your webpage in
+                        the language of their choice. It is a self closing tag.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>link>–</strong> The ‘link’ tag is used to tie together HTML, CSS and
+                        JavaScript. It is self closing.
+                    </li>
+                    <li>
+                        <strong> <span class="p">
+                                << /span>body>:</strong> The body tag is used to enclose all the visible content of a
+                        webpage. In other words, the body content is what the browser will show on the front-end.
+                    </li>
+                </ul>
+                <p>An HTML document can be created using any text editor. Save the text file using .html or .htm. Once
+                    saved as an HTML document, the file can be opened as a webpage in the browser.</p>
+                <p>
+                    <strong>Note:</strong> Basic/built-in text editors are Notepad (Windows) and TextEdit (Macs). Basic
+                    text editors are entirely sufficient for when you’re just getting started. As you progress, there
+                    are many feature-rich text editors available which allow for greater function and flexibility.
+                </p>
+                <p>
+                    <strong>Example:</strong> This example illustrates the basic structure of HTML code.
+                </p>
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            HTML
+                        </h5>
+                        <pre>
+                            <!DOCTYPE html>
+<span class="p"><</span>html>
+<span class="p"><</span>head>
+<span class="p"><</span>span class="p"><</span>meta charset="UTF-8">
+<span class="p"><</span>meta name="viewport" content="width=device-width, initial-scale=1.0">
+<span class="p"><</span>!--The above meta characteristics make a website compatible with different devices. -->
+<span class="p"><</span>title>Demo Web Page<span class="p"><</span>/title>
+<span class="p"><</span>/head>
+                            
+<span class="p"><</span>body>
+<span class="p"><</span>h1>Hello Engineers<span class="p"><</span>/h1>
+                                
+                            
+                            
+<span class="p"><</span>p>A computer science portal for Engineers<span class="p"><</span>/p>
+                            
+                            
+                            
+<span class="p"><</span>/body>
+<span class="p"><</span>/html>                            
+                        </pre>
+                    </div>
+                </div>
+                <div class="container text">
+                    <h3>
+                        Features of HTML:
+                    </h3>
+                    <ul>
+                        <li>
+                            It is easy to learn and easy to use.
+                        </li>
+                        <li>
+                            It is platform-independent.
+                        </li>
+                        <li>
+                            Images, videos, and audio can be added to a web page.
+                        </li>
+                        <li>
+                            Hypertext can be added to the text.
+                        </li>
+                        <li>
+                            It is a markup language.
+                        </li>
+                    </ul>
+                    <h3>
+                        Why learn HTML?
+                    </h3>
+                    <ul>
+                        <li>
+                            It is a simple markup language. Its implementation is easy.
+                        </li>
+                        <li>
+                            It is used to create a website.
+                        </li>
+                        <li>
+                            Helps in developing fundamentals about web programming.
+                        </li>
+                        <li>
+                            Boost professional career.
+                        </li>
+                    </ul>
+                    <h3>
+                        Advantages:
+                    </h3>
+                    <ul>
+                        <li>
+                            HTML is used to build websites.
+                        <li>
+                            It is supported by all browsers.
+                        </li>
+                        <li>
+                            It can be integrated with other languages like CSS, JavaScript, etc.
+                        </li>
+                    </ul>
+                    <h3>
+                        Disadvantages:
+                    </h3>
+                    <ul>
+                        <li>
+                            HTML can only create static web pages. For dynamic web pages, other languages have to be
+                            used.
+                        <li>
+                            A large amount of code has to be written to create a simple web page.
+                        </li>
+                        <li>
+                            The security feature is not good.
+                        </li>
+                    </ul>
+                </div>
+                <div class="album py-5 bg-light">
+                    <div class="container text text-center">
+                        <a href="html_basic_web_html.html">
+                            <button type="button" class="btn btn-outline-success">
+                                <<< Go previous HTML</button></a>
+                        <a href="html_basic_web_full.html"><button type="button" class="btn btn-outline-success">Go To
+                                HTML full form
+                                >>></button></a>
+
+
+                    </div>
+                </div>
+
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
