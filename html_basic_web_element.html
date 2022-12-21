@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML Element
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <div class="my-3">
+                    <p class="fw-semibold">
+                        In this article, we will know the HTML Elements, along with understanding the various available
+                        elements & their syntax through the examples. An HTML element is the collection of start and end
+                        tags with the content inserted in between them.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text">
+                <div class="my-3">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Syntax
+                            </h5>
+                            <pre>
+<span><</span> tagname > Contents... <span><</span>/tagname>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>Supported Tags</strong> HTML Elements supports almost all HTML Tags.</p>
+                    <p><strong>HTML Elements</strong> The HTML element consist of 3 parts.</p>
+                    <ol type="i">
+                        <li>Opening tag: It is used to tell the browser where the content material starts.</li>
+                        <li>Closing tag: It is used to tell the browser where the content material ends.</li>
+                        <li>Content: It is the actual content material inside the opening and closing tag.</li>
+                    </ol>
+                    <p><strong>Example :</strong></p>
+                    <img src="HTMLelement-300x184.jpg" alt="logo" class="img-fluid rounded-2">
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text">
+                <div class="my-3">
+                    <p><strong>Example 1:</strong> In this example <span>
+                            << /span>p> is a starting tag, <span>
+                                    << /span>/p> is an ending tag and it contains some content between the tags, which
+                                        form an element</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+
+    <span><</span>!DOCTYPE html>
+    <span><</span>html>
+    <span><</span>head>
+    <span><</span>title>HTML Elements<span><</span>/title>
+    <span><</span>/head>
+    <span><</span>body>
+    <span><</span>h2>Welcome To GeeksforGeeks<span><</span>/h2>
+         
+     
+    <span><</span>p>Hi Geeks!<span><</span>/p>
+     
+     
+    <span><</span>/body>
+     
+    <span><</span>/html>
+                                </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT : </strong></p>
+                    <img src="2.png" alt="" class="img-fluid">
+                    <p><strong>Example 2:</strong>This example illustrates the use of the HTML paragraph element. </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!-- HTML code to illustrate HTML elements -->
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>HTML Elements</title>
+<span><</span>/head>
+
+<span><</span>body>
+	
+
+<span><</span>p>Welcome to GeeksforGeeks! <span><</span>/p>
+
+
+<span><</span>/body>
+
+<span><</span>/html>
+
+                            </pre>
+
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            Welcome to GeeksforGeeks!
+                        </div>
+                    </div>
+                    <p><strong>Nested HMTL Elements: </strong>The HTML element is use inside the another
+                        HTML Element is called nested HTML elements.</p>
+                    <p><strong>Example 3: </strong>This example describes the use of the Nested HTML elements. Here,
+                        <span>
+                            << /span>html> tag contains the <span>
+                                    << /span>head> and <span>
+                                            << /span>body>. The <span>
+                                                    << /span>head> and
+
+                                                        <body> tag contains another elements so it is called nested
+                                                            element.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>HTML Elements<span><</span>/title>
+<span><</span>/head>
+                                            
+<span><</span>body style="text-align: center">
+<span><</span>h1>GeeksforGeeks<span><</span>/h1>
+                                                
+                                            
+<span><</span>p>Computer science portal<span><</span>/p>
+                                            
+                                            
+<span><</span>/body>
+                                            
+<span><</span>/html>
+                                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT: </strong></p>
+                    <img src="element1.png" alt="">
+                    <p><strong>Necessary to add end tag:</strong> It is necessary to add the end tag of an element.
+                        Otherwise, the displayed
+                        content may or may not be displayed correctly. It is a good practice if you add closing tags to
+                        the non-void HTML
+                        Elements but nowadays browsers are getting more and more advanced and forgiving in nature and
+                        that’s why if you
+                        somehow forget to apply the closing tag in the non-void Element, the browser will not throw any
+                        error but the
+                        problem will arise as you insert more and more HTML elements after that.</p>
+                    <p><strong>Example:</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>HTML Elements<span><</span>/title>
+<span><</span>/head>
+<span><</span>body>
+<span><</span>h2>Welcome To GeeksforGeeks<span><</span>/h2>
+                                        
+                                    
+<span><</span>p>Hi Geeks!
+                                    
+<span><</span>/body>
+                                    
+<span><</span>/html>
+                                    
+                                </pre>
+                        </div>
+                    </div>
+                    <p>This Image is showing the Browser’s Developer Tools and you can see that the missing closing tag
+                        of the paragraph element in the above-written code is automatically added by the browser without
+                        showing any error.</p>
+                    <img src="down2.jpg" alt="" class="img-fluid">
+                    <p><strong>The final output is: </strong></p>
+                    <img src="down3.jpg" alt="" class="img-fluid">
+                    <p>A web browser is forgiving but it doesn’t mean that you start ignoring the ending/closing tag of
+                        the HTML elements. It might show some unexpected behaviour or error in some cases. Like if you
+                        have more than one HTML element on your webpage then omitting the closing tag might result in
+                        clashing of the boundaries of different HTML elements. The browser won’t know where it ends. It
+                        will take the next tag and think it belongs to the previous tag without the closing tag.</p>
+                    <p><strong>Example 4 :</strong> This example describes the HTML element by specifying the end tag.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>HTML Elements<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>!-- h1 tag contains the
+end tag -->
+		
+<span><</span>h1>GeeksforGeeks<span><</span>/h1>
+	
+<span><</span>!-- p tag contains the
+end tag -->
+	
+
+<span><</span>p>Computer science portal<span><</span>/p>
+
+
+<span><</span>/body>
+<span><</span>/html>
+
+                                </pre>
+                        </div>
+                    </div>
+                    <img src="down4.png" alt="" class="img-fluid">
+                    <p><strong>Empty HTML Elements :</strong>HTML Elements without any content i.e, that do not print
+                        anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance.
+                        <span><</span>br>,<span><</span>hr>,<span><</span>link>, <span><</span>input> etc are HTML elements.
+                        <br>
+                        Example 5: In this example <span><</span>br> tag doesn’t print anything. It is used as a line break that
+                        breaks the line between<span><</span>h2> and <span><</span>p> tag.<span><</span>/p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    HMTL
+                                </h5>
+                                <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>Empty HTML Elements<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h2>Welcome To GfG<span><</span>/h2>
+<span><</span>br />
+	
+
+<span><</span>p>Hello Geeks.<span><</span>/p>
+
+
+<span><</span>/body>
+<span><</span>/html>
+
+                                </pre>
+                            </div>
+                        </div>
+                        <p><strong>OUTPUT :</strong></p>
+                        <img src="pic1.png" alt="" class="img-fluid">
+
+                </div>
+                        
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <a href="html_basic_web_layout.html">
+                    <button type="button" class="btn btn-outline-success">
+                        <<< Go previous HTML | Layout</button></a>
+                <a href="html_basic_web_heading.html"><button type="button" class="btn btn-outline-success">Go To
+                        HTML Heading
+                        >>></button></a>
+
+
+            </div>
+        </div>
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
