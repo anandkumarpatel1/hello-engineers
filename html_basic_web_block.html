@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML Block and Inline Elements
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="my-3">
+                <div class="container text text-center">
+                    <p class="fw-semibold">
+                        In this article, we will know the HTML Block element & Inline element, along with understanding the implementation through the example. Every HTML documents that render the web content, will depend on the element type i.e, block or inline which are default display values. We will understand both these concepts through the examples.
+                    </p>
+                </div>
+                <div class="container text text-right">
+                    <p><strong>Example:</strong> This example illustrates the use of the block-level element & inline element.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+<span><</span>div>GeeksforGeeks<span><</span>/div>
+Checkout the GeeksforGeeks
+<span><</span>a href="https://www.geeksforgeeks.org/"
+alt="GeeksforGeeks">
+official<span><</span>/a> website for the articles on various courses.
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="20210908195330.gif" alt="" class="img-fluid">
+                    <br><br>
+                    <p>In the above example, we have used the <span><</span>div> tag that always starts in a new line & captures the full width available. We have used the inline element anchor tag <span><</span>a>that is used to provide a link to a text. The inline element doesn’t start in a new line & captures only the space around the element.</p>
+                    <p><strong>Block Level Elements:</strong> A block-level element always starts on a new line and stretches out to the left and right as far as it can i.e, it occupies the whole horizontal space of its parent element & the height is equal to the content’s height. </p>
+                    <p><strong>Supported tags:</strong></p>
+                    <ul>
+                        <li>HTML <span><</span>address> Tag</li>
+                        <li>HTML <span><</span>blockquote> Tag</li>
+                        <li>HTML <span><</span>dd> Tag</li>
+                        <li>HTML <span><</span>Div> Tag</li>
+                        <li>HTML <span><</span>dl> Tag </li>
+                        <li>HTML <span><</span>dt> Tag</li>
+                        <li>HTML <span><</span>canvas> Tag</li>
+                        <li>HTML <span><</span>form> Tag</li>
+                        <li>HTML <span><</span>Heading> Tag</li>
+                        <li>HTML <span><</span>hr> Tag</li>
+                        <li>HTML <span><</span>li> Tag</li>
+                        <li>HTML <span><</span>main> Tag</li>
+                        <li>HTML <span><</span>nav> Tag</li>
+                        <li>HTML <span><</span>noscript> Tag</li>
+                        <li>HTML <span><</span>ol> Tag</li>
+                        <li>HTML <span><</span>pre> Tag</li>
+                        <li>HTML <span><</span>section> Tag</li>
+                        <li>HTML <span><</span>tfoot> Tag</li>
+                        <li>HTML <span><</span>ul> Tag</li>
+                        <li>HTML Tables</li>
+                        <li>HTML Paragraphs</li>
+                        <li>HTML5 <span><</span>Video> Tag</li>
+                        <li>HTML5 <span><</span>aside> Tag</li>
+                        <li>HTML5 <span><</span>article> Tag</li>
+                        <li>HTML5 <span><</span>figcaption> Tag</li>
+                        <li>HTML5 <span><</span>fieldset> Tag</li>
+                        <li>HTML5 <span><</span>figure> Tag</li>
+                        <li>HTML5 <span><</span>footer> Tag</li>
+                        <li>HTML5 <span><</span>header> Tag</li>
+                    </ul>
+                    <p><strong>div element:</strong> The <span><</span>div> element is used as a container for other HTML elements. It has no required attributes. Style, class, and id are the commonly used attributes.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Syntax
+                            </h5>
+                            <pre>
+<span><</span>div>GFG<span><</span>/div>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>Example:</strong> Below code illustrates the implementation of <span><</span>div> tag. </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>title>Block-level Element<span><</span>/title>
+
+<span><</span>body>
+<span><</span>div>
+<span><</span>h1>GeeksforGeeks<span><</span>/h1>
+<span><</span>h3>GeeksforGeeks is a science portal for geeks.<span><</span>/h3>
+<span><</span>h3>
+You can give reviews as well as
+contribute posts on this portal.
+<span><</span>/h3>
+<span><</span>/div>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="1.jpg" alt="" class="img-fluid">
+                    <br><br>
+                    <p><strong>Inline Elements:</strong> An inline element is the opposite of the block-level element. It does not start on a new line and takes up only the necessary width ie., it only occupies the space bounded by the tags defining the HTML element, instead of breaking the flow of the content. </p>
+                    <p><strong>Supported tags:</strong></p>
+                    <ul>
+                        <li>HTML <span><</span>br> Tag</li>
+                        <li>HTML <span><</span>button> Tag</li>
+                        <li>HTML <span><</span>time> Tag</li>
+                        <li>HTML <span><</span>tt> Tag</li>
+                        <li>HTML <span><</span>var> Tag</li>
+                        <li>HTML <span><</span>a> Tag</li>
+                        <li>HTML <span><</span>abbr> Tag</li>
+                        <li>HTML <span><</span>acronym> Tag</li>
+                        <li>HTML <span><</span>b> Tag</li>
+                        <li>HTML <span><</span>cite> Tag</li>
+                        <li>HTML <span><</span>code> Tag</li>
+                        <li>HTML <span><</span>dfn> Tag</li>
+                        <li>HTML <span><</span>em> Tag</li>
+                        <li>HTML <span><</span>i> Tag</li>
+                        <li>HTML <span><</span>output> Tag</li>
+                        <li>HTML <span><</span>q> Tag</li>
+                        <li>HTML <span><</span>samp> Tag</li>
+                        <li>HTML <span><</span>script> Tag</li>
+                        <li>HTML <span><</span>select> Tag</li>
+                        <li>HTML <span><</span>small> Tag</li>
+                        <li>HTML <span><</span>span> Tag</li>
+                        <li>HTML <span><</span>strong> Tag</li>
+                        <li>HTML <span><</span>sub> Tag</li>
+                        <li>HTML <span><</span>sup> Tag</li>
+                        <li>HTML <span><</span>textarea> tag</li>
+                        <li>HTML <span><</span>bdo> Tag</li>
+                        <li>HTML <span><</span>big> Tag</li>
+                        <li>HTML <span><</span>img> Tag</li>
+                        <li>HTML <span><</span>input> Tag</li>
+                        <li>HTML <span><</span>kbd> Tag</li>
+                        <li>HTML <span><</span>label> Tag</li>
+                        <li>HTML <span><</span>map> Tag</li>
+                        <li>HTML <span><</span>Object> tag</li>
+                    </ul>
+                    <p><strong>span element:</strong> The <span> tag is used as a container for text. It has no required attributes. Style, class, and id are the commonly used attributes.</p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Syntax
+                                </h5>
+                                <pre>
+<span><</span>span>GFG<span><</span>/span>
+                                </pre>
+                            </div>
+                        </div>
+                    <p><strong>Example:</strong> Below code illustrates the implementation of <span> tag. </p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    HTML
+                                </h5>
+                                <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+body {
+	text-align: center;
+}
+
+h1 {
+	color: green;
+}
+<span><</span>/style>
+<span><</span>/head>
+<span><</span>body>
+<span><</span>!-- Span element. -->
+<span><</span>h1>Geeks
+<span><</span>pan style="color: red"> for<span><</span>/span>
+	Geeks
+<span><</span>/h1>
+<span><</span>/body>
+
+<span><</span>/html>
+                                </pre>
+                            </div>
+                        </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="2 (1).png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <a href="html_basic_web_lists.html">
+                    <button type="button" class="btn btn-outline-success">
+                <<< HTML Lists</button></a>
+                <a href="html_basic_web_iframes.html"><button type="button" class="btn btn-outline-success">Go To
+                    HTML Iframes
+                >>></button></a>
+            </div>
+        </div>
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

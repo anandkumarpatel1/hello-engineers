@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML | Links
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="my-3">
+                <div class="container text text-right">
+                    <h3 class="fw-semibold">
+                        What is a Link?
+                    </h3>
+                    <p class="fw-semibold">
+                        It is a connection from one web resource to another. A link has two ends, An anchor and direction. The 
+                        link starts at the “source” anchor and points to the “destination” anchor, which may be any Web resource
+                        such as an image, a video clip, a sound bite, a program, an HTML document or an element within an HTML 
+                        document. You will find many websites or social media platforms ( Like YouTube, Instagram ) which link 
+                        an image to a URL or a text to a URL etc. 
+                        <br>
+                        This basically means that by using the ‘a’ tag, you can link 1 element of the code to another element 
+                        that may/may not be in your code. 
+                    </p>
+                    <br>
+                    <strong> HTML Link Syntax</strong>
+                    <p>Links are specified in HTML using the “a” tag. </p>
+                    <img src="7down1.png" alt="" class="img-fluid">
+                    <p><strong>Syntax Explanation: </strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Syntax
+                            </h5>
+                            <pre>
+href : The href attribute is used to specify the destination address of the link used. "href" stands for Hypertext reference. 
+Text link : The text link is the visible part of the link. It is what the viewer clicks on. 
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>h3>Example Of Adding a link<span><</span>/h3>
+<span><</span>body>
+	
+
+<span><</span>p>Click on the following link<span><</span>/p>
+
+
+<span><</span>a href = "https://www.geeksforgeeks.org">GeeksforGeeks<span><</span>/a>
+<span><</span>/body>
+	
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="7down2.png" alt="" class="img-fluid">
+                    <p><strong>Internal Links :</strong>
+                        An internal link is a type of hyperlink whose target or destination is a resource, such as an image or 
+                        document, on the same website or domain. 
+                    </p>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>h3>Internal Link And External Link Example<span><</span>/h3>
+<span><</span>body>
+
+//internal link
+
+<span><</span>p><span><</span>a href="html_contribute.asp/">GeeksforGeeks Contribute
+<span><</span>/a> It is a link to the contribute page on GeeksforGeeks' website.<span><</span>/p>
+
+
+
+//external link
+
+<span><</span>p><span><</span>a href="https://www.geeksforgeeks.org">GeeksforGeeks
+<span><</span>/a> It is a link to the GeeksforGeeks website on the World Wide Web.<span><</span>/p>
+
+
+
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="7down3.png" alt="" class="img-fluid">
+                    <br> <br> <br>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <video controls width="100%">
+                                <source src="links.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <p><strong>Changing Link Colours in HTML</strong></p>
+                    <p>Different types of links appear in different formats such as:</p>
+                    <ol>
+                        <li>An unvisited link appears underlined and blue in colour by default.</li>
+                        <li>A visited link appears underlined and purple in colour by default.</li>
+                        <li>An active link appears underlined and red in colour by default.</li>
+                    </ol>
+                    <p>The appearances of links can be changed by using CSS.</p>
+                    <br>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>style>
+a:link {
+	color: red;
+	background-color: transparent;
+}
+a:visited {
+	color: green;
+	background-color: transparent;
+}
+a:hover {
+	color: blue;
+	background-color: transparent;
+}
+a:active {
+	color: yellow;
+	background-color: transparent;
+}
+<span><</span>/style>
+<span><</span>/head>
+<span><</span>body>
+
+
+
+<span><</span>p>Changing the default colors of links<span><</span>/p>
+
+
+
+
+
+<span><</span>p>Visited Link<span><</span>/p>
+
+
+<span><</span>a href="https://www.geeksforgeeks.org">GeeksforGeeks<span><</span>/a>
+
+
+
+<span><</span>p>Link<span><</span>/p>
+
+
+
+<span><</span>a href="https://facebook.com">facebook<span><</span>/a>
+
+
+
+<span><</span>p>hovering effect<span><</span>/p>
+
+
+
+<span><</span>a href="https://www.geeksforgeeks.org">GeeksforGeeks<span><</span>/a>
+
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="7down5.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>The Target Attribute in Links</strong></p>
+                    <p>The target attribute is used to specify the location where the linked document is opened. The various 
+                        options that can be used in the target attribute are listed below in the table:
+                    </p>
+                    <br> <br>
+                    <img src="7down5.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>body>
+
+<span><</span>h3>Various options available in the Target Attribute<span><</span>/h3>
+
+
+
+<span><</span>p>If you set the target attribute to "_blank",
+the link will open in a new browser window or tab.<span><</span>/p>
+
+
+<span><</span>a href="https://www.geeksforgeeks.org" target="_blank">GeeksforGeeks<span><</span>/a>
+
+
+
+<span><</span>p>If you set the target attribute to "_self",
+the link will open in the same window or tab.<span><</span>/p>
+
+
+<span><</span>a href="https://www.geeksforgeeks.org" target="_self">GeeksforGeeks<span><</span>/a>
+
+
+
+<span><</span>p>If you set the target attribute to "_top",
+the link will open in the full body of the window.<span><</span>/p>
+
+
+<span><</span>a href="https://www.geeksforgeeks.org" target="_top">GeeksforGeeks<span><</span>/a>
+
+
+
+<span><</span>p>If you set the target attribute to "_parent",
+the link will open in the parent frame.<span><</span>/p>
+
+
+<span><</span>a href="https://www.geeksforgeeks.org" target="_parent">GeeksforGeeks<span><</span>/a>
+
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="7down7.png" alt="" class="img-fluid">
+                    <br> <br> <br>
+                    <div class="card" style="width: 80%;">
+                        <div class="card-body">
+                            <video controls width="100%">
+                                <source src="target.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <br><br>
+                    <p><strong>Using Image as a Link in HTML</strong></p>
+                    <p>An image can be used to create a link to a specified URL. When the viewer clicks on the link, it 
+                        redirects them to another page.
+                    </p>
+                    <p>The code is: 
+                       <br>
+                        <span><</span>a href=”url”>
+                        <br>
+                        <span><</span>img src=”file address (on device or on web)” alt=”_” style=”width:__ ; height:__ ; 
+                        border:__”><span><</span>/a>
+                    </p>
+                    <p><strong>Note: img src</strong> stands for image source ( i.e URL or file address ) </p>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>body>
+
+<span><</span>h3>Using Image as a link<span><</span>/h3>
+
+
+
+<span><</span>p>Click on the image to visit GeeksforGeeks homepage.<span><</span>/p>
+
+
+
+<span><</span>a href="https://www.geeksforgeeks.org">
+<span><</span>img src="gfg_200X200.jpeg" alt="GeeksforGeeks"
+style="width:80px;height:80px;border:0">
+<span><</span>/a>
+
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="7down4.png" alt="" class="img-fluid">
+                    <br><br><br>
+                    <div class="card" style="width: 80%;">
+                        <div class="card-body">
+                            <video controls width="100%">
+                                <source src="imagelink.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <p><strong>Creating a Bookmark Link for a Webpage</strong></p>
+                    <p>A bookmark is a link that can be used to jump to specified portion of a webpage.Bookmarks are very useful
+                        if a webpage is quite long.
+                    </p>
+                    <p><strong>Steps to create a bookmark are:</strong></p>
+                    <ol>
+                        <li>
+                            Using the id attribute,create a bookmark.
+                        </li>    
+                        <img src="7down6.png" alt="" class="img-fluid">
+                        <li>
+                            Add the specified portion of the webpage to the bookmark.
+                        </li>
+                        <img src="7down8.png" alt="" class="img-fluid">
+                    </ol>
+                    <br>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>body>
+
+
+
+<span><</span>p><span><</span>a href="#T11">Jump to Topic 11<span><</span>/a><span><</span>/p>
+
+
+
+
+<span><</span>p><span><</span>a href="#T17">Jump to Topic 17<span><</span>/a><span><</span>/p>
+
+
+
+
+<span><</span>p><span><</span>a href="#T20">Jump to Topic 20<span><</span>/a><span><</span>/p>
+
+
+<span><</span>h2>Topic 1<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 2<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 3<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 4<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 5<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 6<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 7<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 8<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 9<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 10<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2 id="T11">Topic 11<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 12<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 13<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 14<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 15<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 16<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2 id="T17">Topic 17<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 18</h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2>Topic 19<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+<span><</span>h2 id="T20">Topic 20<span><</span>/h2>
+
+
+<span><</span>p>paragraph 1
+.....<span><</span>/p>
+
+
+
+<span><</span>/body>
+<span><</span>/html>
+                             </pre>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <p><strong>OUTPUT :</strong></p>
+                    <div class="card" style="width: 80%;">
+                        <div class="card-body">
+                            <video controls width="100%">
+                                <source src="bookmarks.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <br><br>
+                    <p><strong>Creating a download link in HTML </strong></p>
+                    <p>A text link of a pdf, doc or zip file can be created to make it downloadable.</p>
+                    <p><strong>INPUT :</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+	
+<span><</span>h3>Creating a download link</h3>
+
+<span><</span>body>
+<span><</span>a href = "GeeksforGeeks | A computer science portal for geeks.pdf">Download PDF File<span><</span>/a>
+<span><</span>/body>
+	
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT : </strong></p>
+                    <br><br>
+                    <div class="card" style="width: 80%;">
+                        <div class="card-body">
+                            <video controls width="100%">
+                                <source src="download.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <a href="html_basic_web_styles.html">
+                    <button type="button" class="btn btn-outline-success">
+                <<< HTML | Color Styles and HSL</button></a>
+                <a href="html_basic_web_image.html"><button type="button" class="btn btn-outline-success">Go To
+                HTML Images
+                >>></button></a>
+            </div>
+        </div>
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

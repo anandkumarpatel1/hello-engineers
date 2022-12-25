@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML Images
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="my-3">
+                <div class="container text text-center">
+                    <p class="fw-semibold">
+                        In this article, we will know the HTML Image, how to add the image in HTML, along with
+                        knowing its implementation & usage through the examples. In earlier times, the web pages
+                        only contains textual contents, which made them appear quite boring and uninteresting.
+                        Fortunately, it wasn’t long enough that the ability to embed images on web pages was added
+                        for users. In this article, we will know how to add images to the web page that will make
+                        the website attractive & various methods to insert the images.
+                    </p>
+                </div>
+                <div class="container text text-right">
+                    <p>
+                        There are 2 ways to insert the images into a webpage:
+                    </p>
+                    <ul>
+                        <li>By providing a full path or address (URL) to access an internet file.</li>
+                        <li>By providing the file path relative to the location of the current web page file.</li>
+                    </ul>
+                    <p>We will first discuss inserting the image to the webpage & simultaneously, we will understand
+                        both the above approaches.
+                    </p>
+                    <p><strong>Adding images on a webpage:</strong>The <span>
+                            <</span>img> tag is used to add or embed the images
+                                to a webpage/website. The “img” tag is an empty tag, which means it can contain only a
+                                list of
+                                attributes and it has no closing tag. The addition of the images improves the quality
+                                along with
+                                enhancing the design structure, appearance of the webpage. Nowadays, a website does not
+                                directly
+                                add images to a web page, as the images are linked to web pages by using the <span>
+                                    <</span>img> tag
+                                        which holds space for the image.
+                    </p>
+                </div>
+                <div class="container text text-right">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Syntax
+                            </h5>
+                            <pre>
+<span><</span>img src="url" alt="some_text" width="" height="">
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>Attribute</strong>The <span>
+                        <</span>img> tag has following attributes:</p>
+                    <ul>
+                        <li>
+                            <strong>src:</strong> It is used to specify the path to the image.
+                        </li>
+                        <li>
+                            <strong>alt:</strong>It is used to specify an alternate text for the image. It is useful as
+                            it informs the user about
+                            what the image means and also due to any network issue if the image cannot be displayed then
+                            this alternate text will be
+                            displayed.
+                        </li>
+                        <li>
+                            <strong>crossorigin:</strong>
+                        </li>
+                        <li>
+                            <strong></strong> It is used to import images from third-party sites that allow cross-origin
+                            access to be used with
+                            canvas.
+                        </li>
+                        <li>
+                            <strong>height:</strong> It is used to specify the height of the image.
+                        </li>
+                        <li>
+                            <strong>width:</strong> It is used to specify the width of the image.
+                        </li>
+                        <li>
+                            <strong>ismap:</strong> It is used to specify an image as a server-side image map.
+                        </li>
+                        <li>
+                            <strong>loading:</strong> It is used to specify whether a browser should defer the loading
+                            of images until some
+                            conditions are met or load an image immediately.
+                        </li>
+                        <li>
+                            <strong>longdesc:</strong> It is used to specify a URL to a detailed description of an
+                            image.
+                        </li>
+                        <li>
+                            <strong>referrerpolicy:</strong> It is used to specify which referrer information to use
+                            when fetching an image i.e. no-referrer, no-referrer-when-downgrade, origin,
+                            origin-when-cross-origin, unsafe-url.
+                        </li>
+                        <li>
+                            <strong>sizes:</strong> It is used to specify image sizes for different page layouts.
+                        </li>
+                        <li>
+                            <strong>srcset:</strong> It is used to specify a list of image files to use in different
+                            situations.
+                        </li>
+                        <li>
+                            <strong>usemap:</strong> It is used to specify an image as a client-side image map.
+                        </li>
+                    </ul>
+                    <p><strong>src:</strong> The src stands for source. Every image has an src attribute which tells the browser
+                        where to find the image you want to display. The URL of the image provided points to the location where 
+                        the image is stored. When the webpage loads for the first time, then the browser gets the image from a 
+                        web server and inserts it into the page. If the image is not spotted by the browser then users will get 
+                        a broken link icon. It might be possible if the file path is wrong or the image got deleted from that 
+                        location.
+                    </p>
+                    <p>
+                        <strong>Example 1:</strong> This simple example illustrates the use of the <img> tag in HTML that is 
+                        used to embed the image into the webpage.
+                    </p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    HTML
+                                </h5>
+                                <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>Welcome To GFG<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h2>GeeksforGeeks<span><</span>/h2>
+<span><</span>p>This is the demo of <img> tag.<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png"
+alt="GFG image" />
+<span><</span>/body>
+<span><</span>/html>
+                                </pre>
+                            </div>
+                        </div>
+                        <p><strong>OUTPUT :</strong></p>
+                        <img src="8down1.jpg" alt="" class="img-fluid">
+                        <br> <br>
+                        <p>
+                            <strong>Example 2:</strong> The example illustrates the use of the src attribute in the <span>
+                            <</span>img> tag.
+                        </p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    HTML
+                                </h5>
+                                <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>Inserting an image using "img" tag<span><</span>/title>
+</head>
+
+<span><</span>body>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"/>
+<span><</span>/body>
+<span><</span>/html>
+                                </pre>
+                            </div>
+                        </div>
+                    <P>
+                        <strong>OUTPUT :</strong> 
+                    </P>
+                        <img src="8down2.png" alt="" class="img-fluid">
+                        <br> <br>
+                    <p>
+                        <strong>Example 3:</strong>The example illustrates the use of the alt attribute in the <span>
+                            <</span>img> tag.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>Alt Attribute Example<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+		alt="This is GeeksforGeeks logo" />
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="8down3.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Setting width and height of Image:</strong> The width and height attributes are used to specify 
+                        the height and width of an image. The attribute values are specified in pixels by default. The width and
+                        height attributes are always declared in pixels. Please refer to the How to set the width and height of 
+                        an image using HTML? article for further details.
+                    </p>
+                    <p><strong>Example 4:</strong>The example illustrates the use of the width & height attribute in the <span>
+                        <</span>img> tag.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>Setting width and height of image<span><</span>/title>
+<span><</span>/head>
+
+<<span><</span>body>
+	
+<span><</span>p>inserted image using<span><</span>img> tag:<span><</span>/p>
+
+
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+alt="GeeksforGeeks logo"
+width="300"
+height="300" />
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="8down4.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Adding titles to Image:</strong> Along with the images, titles can also be added to images to 
+                        provide further information related to the inserted image. For inserting a title, the title attribute is
+                        used. Please refer to the HTML | title Attribute article for further details.
+                    </p>
+                    <p><strong>Example 5:</strong></p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>Inserting an image using "img" tag<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+alt="GeeksforGeeks logo"
+width="200"
+height="200"
+title="Logo of GeeksforGeeks" />
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT : </strong></p>
+                    <img src="8down5.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Setting style to the Image:</strong> In this example, we are using the border property to 
+                        decorate the image. By default, every picture has a border around it. By using the border attribute, the
+                        thickness of the border can be changed. A thickness of “0” means that there will be no border around the
+                        picture. Please refer to the HTML | <span><</span>img> border Attribute for further details.
+                    </p>
+                    <p><strong>Example 6:</strong> This example illustrates the use of style property inside the <img> tag in 
+                        HTML.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+<span><</span>head>
+<span><</span>title>Setting border to image<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+alt="GeeksforGeeks logo"
+width="200"
+height="200"
+border="5" />
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="8down6.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Aligning an Image:</strong>  By default, an image is aligned on the left side of the page, but it
+                        can be aligned to the centre or right using the align attribute. Please refer to the HTML | <span>
+                        <</span>/img> align Attribute for further details.
+                    </p>
+                    <p><strong>Example 7:</strong>This example illustrates the use of align property in the <span><</span>img> 
+                        tag whose value is set to right.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>Aligning an image<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+alt="GeeksforGeeks logo"
+align="right" />
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="8down7.png" alt="" class="img-fluid">
+                    <p><strong>Adding Image as a Link:</strong>An image can work as a link with a URL embedded in it. It can be 
+                        done by using the “img” tag inside an “a” tag. We need to specify the file path in order to render the 
+                        image on the webpage. File paths are used to link external resources such as images, videos, style 
+                        sheets, JavaScript, displaying other web pages, etc. To insert a file on a web page its source must be 
+                        known.
+                    </p>
+                    <p>File paths are of two types:</p>
+                    <p><strong>Absolute File Paths:</strong>It always contains the root element along with the complete 
+                        directory list required to locate the file.
+                    </p>
+                    <p><strong>Relative File Paths:</strong>It is the hierarchical path representation that locates the file or 
+                        folder on a file system beginning from the current directory.
+                    </p>
+                    <p><strong>Example 8:</strong>This example illustrates the use of link property in the <span><</span>img> 
+                        tag. Here, we have used the absolute path link in order to provide the link to the image. Please refer 
+                        to the HTML | File Paths & How to turn an Image into a Link in HTML? article for further details.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>title>Adding image as link<span><</span>/title>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h3>GeekforGeeks<span><</span>/h3>
+<span><</span>p>inserted image using <span><</span>img> tag:<span><</span>/p>
+<span><</span>a href="https://ide.geeksforgeeks.org/tryit.php">
+<span><</span>img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+alt="GeeksforGeeks logo" />
+<span><</span>/a>
+<span><</span>/body>
+
+<span><</span>/html>
+
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="20210917122132.gif" alt="" class="img-fluid" >
+                    <br> <br>
+                    <p><strong>Adding animated Image:</strong>Animated images in .gif format can also be added using the “img” tag.</p>
+                    <p><strong>Example 9:</strong>This example explains the addition of an image in the GIF format in HTML.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+<span><</span>h3>Adding a gif file on a webpage<span><</span>/h3>
+<span><</span>img src="smiley.gif"
+alt="smiley"
+style="width: 200px; height: 200px" />
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="ezgifcomgifmaker2.gif" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Using Image as a background:</strong>An image can be used as a background for a webpage. For this, we use the 
+                        background-image property of CSS. Please refer to the HTML | <span><</span>body> background Attribute for further 
+                        details.
+                    </p>
+                    <p><strong>Example 10:</strong>This example illustrates the use of body background property in the <span><</span>img> 
+                        tag.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HTML
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body style="background-image: url (
+'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png'
+);">
+<span><</span>h2>Image As a Background<span><</span>/h2>
+<span><</span>p>
+In this example we have specified a
+background for a webpage using an image.
+<span><</span>/p>
+
+
+<span><</span>/body>
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="8down8.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p>
+                        <strong>Common Image Format:</strong>Here is the commonly used image file format that is supported by all the 
+                        browsers.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="my-3">
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-dark bg-gradient text-white ">
+                            S.No.
+                            <br>
+                        </div>
+                        <div class="col p-3 mb-2 bg-dark bg-gradient text-white">
+                            Abbreviation
+                        </div>
+                        <div class="col p-3 mb-2 bg-dark bg-gradient text-white">
+                            File Type
+                        </div>
+                        <div class="col p-3 mb-2 bg-dark bg-gradient text-white">
+                            Extension
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-secondary bg-gradient text-white ">
+                            1. 		
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            PNG
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            Portable Network Graphics.
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            .png 
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-info bg-gradient text-white ">
+                            2.			
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            JPEG.
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            Joint Photographic Expert Group image.
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            .jpg, .jpeg, .jfif, .pjpeg, .pjp
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-secondary bg-gradient text-white ">
+                            3.
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            SVG
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            Scalable Vector Graphics.
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            .svg.
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-info bg-gradient text-white ">
+                            4.	  
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            GIF
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            Graphics Interchange Format.
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            .gif
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-secondary bg-gradient text-white ">
+                            5.
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            ICO
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            Microsoft Icon.
+                        </div>
+                        <div class="col p-3 mb-2 bg-secondary bg-gradient text-white">
+                            .ico, .cur
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class=" col p-3 mb-2 bg-info bg-gradient text-white ">
+                        	6.
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            APNG
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            Animated Portable Network Graphics.
+                        </div>
+                        <div class="col p-3 mb-2 bg-info bg-gradient text-white">
+                            .apng
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <a href="html_basic_web_links.html">
+                    <button type="button" class="btn btn-outline-success">
+                        <<< HTML | links</button></a>
+                <a href="html_basic_web_tables.html"><button type="button" class="btn btn-outline-success">Go To
+                    HTML Tables
+                        >>></button></a>
+            </div>
+        </div>
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

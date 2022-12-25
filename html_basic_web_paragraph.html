@@ -65,7 +65,7 @@
             <div class="row py-lg-5 ">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="fw-light">
-                        HTML Element
+                        HTML Paragraphs
                     </h1>
                 </div>
             </div>
@@ -74,15 +74,16 @@
             <div class="container text text-center">
                 <div class="my-3">
                     <p class="fw-semibold">
-                        In this article, we will know the HTML Elements, along with understanding the various available
-                        elements & their syntax through the examples. An HTML element is the collection of start and end
-                        tags with the content inserted in between them.
-                    </p>
+                        In this article, we will know the HTML Paragraph, & its basic implementation through the
+                        examples. The <span><</span>p> tag in HTML defines a paragraph. These have both opening and
+                        closing tags. So anything mentioned within <span><</span>p> and <span><</span>/p> is treate
+                        as a paragraph. Most browsers read a line as a paragraph even if we don’t use the closing
+                        tag i.e, <span><</span>/p>, but this may raise unexpected results. So, it is both a good
+                        convention, and we must use the closing tag.
+                    </p> 
                 </div>
             </div>
-        </div>
-        <div class="album py-5 bg-light">
-            <div class="container text">
+            <div class="container text ">
                 <div class="my-3">
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
@@ -90,258 +91,268 @@
                                 Syntax
                             </h5>
                             <pre>
-<span><</span> tagname > Contents... <span><</span>/tagname>
+<span><</span>p> Content <span><</span>/p>
                             </pre>
                         </div>
                     </div>
-                    <p><strong>Supported Tags</strong> HTML Elements supports almost all HTML Tags.</p>
-                    <p><strong>HTML Elements</strong> The HTML element consist of 3 parts.</p>
-                    <ol type="i">
-                        <li>Opening tag: It is used to tell the browser where the content material starts.</li>
-                        <li>Closing tag: It is used to tell the browser where the content material ends.</li>
-                        <li>Content: It is the actual content material inside the opening and closing tag.</li>
-                    </ol>
-                    <p><strong>Example :</strong></p>
-                    <img src="HTMLelement-300x184.jpg" alt="logo" class="img-fluid rounded-2">
-                </div>
-            </div>
-        </div>
-        <div class="album py-5 bg-light">
-            <div class="container text">
-                <div class="my-3">
-                    <p><strong>Example 1:</strong> In this example <span>
-                            << /span>p> is a starting tag, <span>
-                                    << /span>/p> is an ending tag and it contains some content between the tags, which
-                                        form an element</p>
+                    <p><strong>Example 1:</strong>In this example, we are using the <span><</span>p> tag that is used for 
+                        paragraphs in HTML.
+                    </p>
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                             <h5 class="card-title">
-                                HTML
+                            HMTL
                             </h5>
                             <pre>
-
-    <span><</span>!DOCTYPE html>
-    <span><</span>html>
-    <span><</span>head>
-    <span><</span>title>HTML Elements<span><</span>/title>
-    <span><</span>/head>
-    <span><</span>body>
-    <span><</span>h2>Welcome To GeeksforGeeks<span><</span>/h2>
-         
-     
-    <span><</span>p>Hi Geeks!<span><</span>/p>
-     
-     
-    <span><</span>/body>
-     
-    <span><</span>/html>
-                                </pre>
-                        </div>
-                    </div>
-                    <p><strong>OUTPUT : </strong></p>
-                    <img src="2.png" alt="" class="img-fluid">
-                    <p><strong>Example 2:</strong>This example illustrates the use of the HTML paragraph element. </p>
-                    <div class="card" style="width: 100%;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                HTML
-                            </h5>
-                            <pre>
-<span><</span>!-- HTML code to illustrate HTML elements -->
 <span><</span>!DOCTYPE html>
 <span><</span>html>
-<span><</span>head>
-<span><</span>title>HTML Elements</title>
-<span><</span>/head>
 
 <span><</span>body>
+<span><</span>h2>Welcome To GeeksforGeeks<span><</span>/h2>
+	
+<span><</span>!-- Use of <span><</span>p> tag -->
 	
 
-<span><</span>p>Welcome to GeeksforGeeks! <span><</span>/p>
+<span><</span>p>A computer science portal for geeks.<span><</span>/p>
+
 
 
 <span><</span>/body>
 
 <span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="3down1.png" alt="" class="img-fluid">
+                    <p><strong>Example 2 :</strong>This example explains the HTML <span><</span>p> tag.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                            HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
 
+<span><</span>body>
+	
+
+<span><</span>p>A Computer Science portal for geeks.<span><</span>/p>
+
+
+	
+
+<span><</span>p>It contains well written, well thought articles.<span><</span>/p>
+
+
+
+<span><</span>/body>
+
+<span><</span>/html>
+                             </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="3down2.jpg" alt="" class="img-fluid">
+                    <p><strong>Key Points :</strong>When we look at the webpage, we see that there are few spaces
+                        added before and after a paragraph. HTML does this by default. Let’s look at a few
+                        properties of the paragraph tag: 
+                    </p>
+                    <ul>
+                        <li>As already mentioned, the<span><</span>p>tag automatically adds space before and after
+                            any paragraph, which is basically margins added by the browser.
+                        </li>
+                        <li>If a user adds multiple spaces, the browser reduces them to a single space.</li>
+                        <li>If a user adds multiple lines, the browser reduces them to a single line.</li>
+                        <li>By default, the display of the Paragraph element is set to “block” which you can change
+                            using CSS. This means that if you add another paragraph to the webpage the next
+                            paragraph will be inserted in the next line on the webpage.
+                        </li>
+                    </ul>
+                    <p><strong>Example :</strong>This example explains the HTML <span><</span>p> tag having multiple
+                        lines.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                            HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+	
+
+<span><</span>p>
+This paragraph has multiple lines.
+But HTML reduces them to a single line,
+omitting the carriage return we have used.
+<span><</span>/p>
+
+
+
+	
+
+<span><</span>p>
+This paragraph has multiple spaces.
+But HTML reduces them all to a single
+space, omitting the extra spaces and line we have used.
+<span><</span>/p>
+
+
+
+<span><</span>/body>
+
+<span><</span>/html>
                             </pre>
 
                         </div>
                     </div>
                     <p><strong>OUTPUT :</strong></p>
-                    <div class="card" style="width: 100%;">
-                        <div class="card-body">
-                            Welcome to GeeksforGeeks!
-                        </div>
-                    </div>
-                    <p><strong>Nested HMTL Elements: </strong>The HTML element is use inside the another
-                        HTML Element is called nested HTML elements.</p>
-                    <p><strong>Example 3: </strong>This example describes the use of the Nested HTML elements. Here,
-                        <span>
-                            <</span>html> tag contains the <span>
-                                    << /span>head> and <span>
-                                            <</span>body>. The <span>
-                                                    <</span>head> and
-
-                                                        <body> tag contains another elements so it is called nested
-                                                            element.
+                    <img src="3down3.jpg" alt="" class="img-fluid">
+                    <p><strong><span><</span>br> tag :</strong>There is a way to let the HTML know where the browser
+                        needs to change the lines by using the <span><</span>br> tag. These tags do not have any
+                        closing tag. So, just a single opening tag will change the line.
                     </p>
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                             <h5 class="card-title">
-                                HTML
+                            Syntax
                             </h5>
                             <pre>
-<span><</span>!DOCTYPE html>
-<span><</span>html>
-<span><</span>head>
-<span><</span>title>HTML Elements<span><</span>/title>
-<span><</span>/head>
-                                            
-<span><</span>body style="text-align: center">
-<span><</span>h1>GeeksforGeeks<span><</span>/h1>
-                                                
-                                            
-<span><</span>p>Computer science portal<span><</span>/p>
-                                            
-                                            
-<span><</span>/body>
-                                            
-<span><</span>/html>
-                                            </pre>
+
+<span><</span>br></pre>
+                            
                         </div>
                     </div>
-                    <img src="down3.jpg" alt="" class="img-fluid">
-                    <p><strong>OUTPUT: </strong></p>
-                    <img src="element1.png" alt="">
-                    <p><strong>Necessary to add end tag:</strong> It is necessary to add the end tag of an element.
-                        Otherwise, the displayed
-                        content may or may not be displayed correctly. It is a good practice if you add closing tags to
-                        the non-void HTML
-                        Elements but nowadays browsers are getting more and more advanced and forgiving in nature and
-                        that’s why if you
-                        somehow forget to apply the closing tag in the non-void Element, the browser will not throw any
-                        error but the
-                        problem will arise as you insert more and more HTML elements after that.</p>
-                    <p><strong>Example:</strong></p>
-                    <div class="card" style="width: 100%;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                HMTL
-                            </h5>
-                            <pre>
-<span><</span>!DOCTYPE html>
-<span><</span>html>
-<span><</span>head>
-<span><</span>title>HTML Elements<span><</span>/title>
-<span><</span>/head>
-<span><</span>body>
-<span><</span>h2>Welcome To GeeksforGeeks<span><</span>/h2>
-                                        
-                                    
-<span><</span>p>Hi Geeks!
-                                    
-<span><</span>/body>
-                                    
-<span><</span>/html>
-                                    
-                                </pre>
-                        </div>
-                    </div>
-                    <p>This Image is showing the Browser’s Developer Tools and you can see that the missing closing tag
-                        of the paragraph element in the above-written code is automatically added by the browser without
-                        showing any error.</p>
-                    <img src="down2.jpg" alt="" class="img-fluid">
-                    <p><strong>The final output is: </strong></p>
-                    <img src="down3.jpg" alt="" class="img-fluid">
-                    <p>A web browser is forgiving but it doesn’t mean that you start ignoring the ending/closing tag of
-                        the HTML elements. It might show some unexpected behaviour or error in some cases. Like if you
-                        have more than one HTML element on your webpage then omitting the closing tag might result in
-                        clashing of the boundaries of different HTML elements. The browser won’t know where it ends. It
-                        will take the next tag and think it belongs to the previous tag without the closing tag.</p>
-                    <p><strong>Example 4 :</strong> This example describes the HTML element by specifying the end tag.
+                    <p><strong>Example : </strong>This example explains the <span><</span>br> tag inside the <span>
+                        <</span>p> tag to add the line-break.
                     </p>
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                             <h5 class="card-title">
-                                HMTL
+                            HTML
                             </h5>
                             <pre>
 <span><</span>!DOCTYPE html>
 <span><</span>html>
-<span><</span>head>
-<span><</span>title>HTML Elements<span><</span>/title>
-<span><</span>/head>
 
 <span><</span>body>
-<span><</span>!-- h1 tag contains the
-end tag -->
-		
-<span><</span>h1>GeeksforGeeks<span><</span>/h1>
-	
-<span><</span>!-- p tag contains the
-end tag -->
 	
 
-<span><</span>p>Computer science portal<span><</span>/p>
+<span><</span>p>
+This paragraph has multiple
+<span><</span>br />lines. But HTML reduces them
+<span><</span>br />to a single line, omitting
+<span><</span>br />the carriage return we have used.
+<span><</span>/p>
+
 
 
 <span><</span>/body>
-<span><</span>/html>
 
-                                </pre>
+<span><</span>/html>
+                            </pre>
                         </div>
                     </div>
-                    <img src="down4.png" alt="" class="img-fluid">
-                    <p><strong>Empty HTML Elements :</strong>HTML Elements without any content i.e, that do not print
-                        anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance.
-                        <span><</span>br>,<span><</span>hr>,<span><</span>link>, <span><</span>input> etc are HTML elements.
-                        <br>
-                        Example 5: In this example <span><</span>br> tag doesn’t print anything. It is used as a line break that
-                        breaks the line between<span><</span>h2> and <span><</span>p> tag.<span><</span>/p>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="3down 4.jpg" alt="" class="img-fluid">
+                    <p><strong>Align attribute: </strong>The <p> tag specifically supports the alignment attribute
+                        and allows us to align our paragraphs in left, right, or center alignment. </p>
                         <div class="card" style="width: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    HMTL
+                                Syntax
+                                </h5>
+                                <pre>
+
+<span><</span>p align="value">  </pre>
+                            </div>
+                        </div>
+                        <p><strong>Example :</strong>This example explains the align attribute to align the content
+                             in the <span><</span>p> tag.
+                        </p>
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                HMTL
                                 </h5>
                                 <pre>
 <span><</span>!DOCTYPE html>
 <span><</span>html>
-<span><</span>head>
-<span><</span>title>Empty HTML Elements<span><</span>/title>
-<span><</span>/head>
 
 <span><</span>body>
-<span><</span>h2>Welcome To GfG<span><</span>/h2>
-<span><</span>br />
-	
+<span><</span>p align="center">Welcome Geeks<span><</span>/p>
 
-<span><</span>p>Hello Geeks.<span><</span>/p>
+
+
+<span><</span>p align="left">A Computer Science portal for geeks.<span><</span>/p>
+
+
+
+<span><</span>p align="right">It contains well written, well thought articles.<span><</span>/p>
+
 
 
 <span><</span>/body>
-<span><</span>/html>
 
+<span><</span>/html>
                                 </pre>
+
                             </div>
                         </div>
                         <p><strong>OUTPUT :</strong></p>
-                        <img src="pic1.png" alt="" class="img-fluid">
+                        <img src="3down 5.jpg" alt="" class="img-fluid">
+                    <p><strong><span><</span>pre> tag :</strong>
+                        We have seen how the paragraph tag ignores all the changes of lines and extra spaces within
+                        a paragraph, but there is a way to preserve this by the use of the <span><</span>pre> tag.
+                        It also contains an opening and a closing tag. It displays a text within a fixed height
+                        and width and preserves the extra lines and spaces we use.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                            HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
 
+<span><</span>body>
+<span><</span>pre>
+This paragraph has multiple
+lines. But it is displayed
+as it is unlike the paragraph
+tag.
+<span><</span>/pre>
+
+<span><</span>pre>
+This	 paragraph has multiple
+spaces. But	 it is displayed
+as it is unlike the paragraph
+		tag.
+<span><</span>/pre>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="3down6.jpg" alt="" class="img-fluid">
                 </div>
-                        
             </div>
         </div>
         <div class="album py-5 bg-light">
             <div class="container text text-center">
-                <a href="html_basic_web_layout.html">
+                <a href="html_basic_web_heading.html">
                     <button type="button" class="btn btn-outline-success">
-                        <<< Go previous HTML | Layout</button></a>
-                <a href="html_basic_web_heading.html"><button type="button" class="btn btn-outline-success">Go To
-                        HTML Heading
+                        <<< Go previous HTML Heading</button></a>
+                <a href="html_basic_web_format.html"><button type="button" class="btn btn-outline-success">Go To
+                        HTML Text Formatting
                         >>></button></a>
-
-
             </div>
         </div>
     </main>

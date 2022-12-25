@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete course of C programming language,Web devlopment and Java">
+    <title> Basic HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+
+</head>
+
+<body>
+    <!-- nav bar start hai -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                HELLO Engineers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term.html">Term</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="https://instagram.com/babu_.patel_._">Instagram</a></li>
+                            <li><a class="dropdown-item" href="mailto:harshrajsinha1@gmail.com">E-mail</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page start -->
+    <main>
+        <section class="py-5 text-center container ">
+            <div class="row py-lg-5 ">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">
+                        HTML Tables
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="my-3">
+                <div class="container text text-center">
+                    <p class="fw-semibold">
+                        In this article, we will know the HTML Table, various ways to implement it, & will also
+                        understand its usage through
+                        the examples. HTML Table is an arrangement of data in rows and columns, or possibly in a more
+                        complex structure. Tables are widely used in communication, research, and data analysis. Tables
+                        are useful for various tasks such as presenting text information and numerical data. It can be
+                        used to compare two or more items in the tabular form layout. Tables are used to create database
+                    </p>
+                </div>
+                <div class="container text text-right">
+                    <p><strong>Defining Tables in HTML:</strong>An HTML table is defined with the “table” tag. Each
+                        table row is defined with the “tr” tag. A table header is defined with the “th” tag. By default,
+                        table headings are bold and centered. A table data/cell is defined with the “td” tag.
+                    </p>
+                    <p>
+                        <strong>Example 1:</strong> In this example, we are creating a simple table in HTML using a table tag. 
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+<span><</span>table>
+<span><</span>tr>
+<span><</span>th>Book Name<span><</span>/th>
+<span><</span>th>Author Name<span><</span>/th>
+<span><</span>th>Genre<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>The Book Thief<span><</span>/td>
+<span><</span>td>Markus Zusak<span><</span>/td>
+<td>Historical Fiction<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>The Cruel Prince<span><</span>/td>
+<span><</span>td>Holly Black<span><</span>/td>
+<span><</span>td>Fantasy<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>The Silent Patient<span><</span>/td>
+<span><</span>td> Alex Michaelides<span><</span>/td>
+<span><</span>td>Psychological Fiction<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="1157.png" alt="" class="img-fluid">
+                    <p><strong>Example 2:</strong>This example explains the use of the HTML Table.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+<span><</span>table>
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age</th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="1230.png" alt="" class="img-fluid">
+                    <p>
+                        <strong>Accepted Attributes:</strong>
+                    </p>
+                    <ul>
+                        <li><span><</span>table> cellspacing Attribute</li>
+                        <li><span><</span>table> rules Attribute </li>
+                    </ul>
+                    <p>
+                        <strong>Adding a border to an HTML Table:</strong>A border is set using the CSS border property. If you do not 
+                        specify a border for the table, it will be displayed without borders.
+                    </p>
+                    <img src="Screen-Shot-2017-11-16-at-3.54.43-PM.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Example 3:</strong>This example explains the addition of the border to the HTML Table.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+border: 1px solid black;
+}
+<span><</span>/style>
+<span><</span>/head>
+<span><</span><body>
+<span><</span>table style="width:100%<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam</td>
+<td>Watson</td>
+<td>41</td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="Screen-Shot-2017-11-15-at-10.45.20-AM.png" alt="" class="img-fluid">
+                    <p><strong>Adding Collapsed Borders in an HTML Table:</strong>For borders to collapse into one border, add the CSS border-collapse property.
+                    </p>
+                    <img src="Screen-Shot-2017-11-16-at-3.55.29-PM.png" alt="" class="img-fluid">
+                    <p><strong>Example 4:</strong>This example describes the addition of Collapsed Borders in HTML.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head<span><</span>
+	<style>
+	table,
+	th,
+	td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	</style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="Screen-Shot-2017-11-15-at-10.49.53-AM.png" alt="" class="img-fluid">
+                    <p>
+                        <strong>Adding Cell Padding in an HTML Table:</strong>Cell padding specifies the space between the cell content and its borders. If we do not specify a padding, the table cells will be displayed without padding.
+                    </p>
+                    <img src="Screen-Shot-2017-11-16-at-3.56.03-PM.png" alt="" class="img-fluid">
+                    <p><strong>Example 5:</strong>This example describes the addition of Table cell padding in HTML.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                        <img src="Screen-Shot-2017-11-15-at-7.26.30-PM.png" alt="" class="igm-fluid">
+                    <p>
+                        <strong>Adding Left Align Headings in an HTML Table:</strong>By default, the table headings are bold and centered. To left-align the table headings, we must use the CSS text-align property.
+                    </p>
+                    <img src="Screen-Shot-2017-11-16-at-3.40.10-PM.png" alt="" class="img-fluid">
+                    <p>
+                        <strong>Example 6:</strong> This example explains the text-align property where the text is aligned to the left.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+th {
+    text-align: left;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT : </strong></p>
+                    <img src="Screen-Shot-2017-11-16-at-3.40.39-PM.png" alt="" class="img-fluid">
+                    <br> <br>
+                    <p><strong>Adding Border Spacing in an HTML Table:</strong>Border spacing specifies the space between the cells. To set the border-spacing for a table, we must use the CSS border-spacing property.</p>
+                    <img src="Screen-Shot-2017-11-16-at-3.43.18-PM.png" alt="" class="img-fluid">
+                    <p><strong>Example 7:</strong>This example explains the border space property to make the space between the Table cells</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+    border: 1px solid black;
+}
+ 
+table {
+    border-spacing: 5px;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="Screen-Shot-2017-11-16-at-3.45.40-PM.png" alt="" class="img-fluid">
+                    <p><strong>Adding Cells that Span Many Columns in HTML Tables:</strong>To make a cell span more than one column, we must use the colspan attribute.
+                    </p>
+                    <p><strong>Example 8: </strong>This example describes the use of the colspan attribute in HTML.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 5px;
+	text-align: left;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h2>Cell that spans two columns:<span><</span>/h2>
+<span><</span>table style="width:100%">
+span><</span>tr>
+<span><</span>th>Name<span><</span>/th>
+<span><</span>th colspan="2">Telephone<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Vikas Rawat<span><</span>/td>
+<span><</span>td>9125577854<span><</span>/td>
+<span><</span>td>8565557785<span><</span>/td>
+span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="Screen-Shot-2017-11-16-at-3.49.33-PM.png" alt="" class="img-fluid">
+                    <br><br>
+                    <p><strong>Adding Cells that span many rows in HTML Tables:</strong> To make a cell span more than one row, we must use the rowspan attribute</p>
+                    <p><strong>Example 9:</strong> This example describes the use of the rowspan attribute in HTML.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+	
+th,
+td {
+padding: 5px;
+text-align: left;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>h2>Cell that spans two rows:<span><</span>/h2>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Name:<span><</span>/th>
+<span><</span>td>Vikas Rawat<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>th rowspan="2">Telephone:<span><</span>/th>
+<span><</span>td>9125577854<<span><</span>td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>8565557785<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong>OUTPUT :</strong></p>
+                    <img src="Screen-Shot-2017-11-16-at-3.53.18-PM.png" alt="" class="img-fluid">
+                    <p><strong>Adding a Caption in an HTML Table:</strong> To add a caption to a table, we must use the “caption” tag.</p>
+                    <img src="Screen-Shot-2017-11-16-at-4.12.46-PM.png" alt="" class="img-fluid">
+                    <p><strong>Example 10:</strong> This example describes the HTML Table caption by specifying the CSS properties for setting its width.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+th {
+    text-align: left;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>caption>DETAILS<span><</span>/caption>
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <p><strong></strong></p>
+                    <img src="Screen-Shot-2017-11-16-at-4.12.02-PM.png" alt="" class="img-fluid">
+                    <p><strong>Adding a Background Colour to the Table:</strong> A color can be added as a background in an HTML table using the “background-color” option.</p>
+                    <img src="Screen-Shot-2017-11-16-at-4.16.17-PM.png" alt="" class="img-fluid">
+                    <br><br>
+                    <p><strong>Example 11:</strong> This example describes the addition of the Table background color in HTML.
+                    </p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>head>
+<span><</span>style>
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 {
+    width: 100%;
+    background-color: #f2f2d1;
+}
+<span><</span>/style>
+<span><</span>/head>
+
+<span><</span>body>
+<span><</span>table style="width:100%">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>br />
+<span><</span>br />
+<span><</span>table id="t01">
+<span><</span>tr>
+<span><</span>th>Firstname<span><</span>/th>
+<span><</span>th>Lastname<span><</span>/th>
+<span><</span>th>Age<span><</span>/th>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Priya<span><</span>/td>
+<span><</span>td>Sharma<span><</span>/td>
+<span><</span>td>24<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Arun<span><</span>/td>
+<span><</span>td>Singh<span><</span>/td>
+<span><</span>td>32<span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td>Sam<span><</span>/td>
+<span><</span>td>Watson<span><</span>/td>
+<span><</span>td>41<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                    <img src="Screen-Shot-2017-11-16-at-4.16.23-PM.png" alt="" class="img-fluid">
+                    <p><strong>Creating Nested Tables:</strong> Nesting tables simply means making a Table inside another Table. Nesting tables can lead to complex tables layouts, which are visually interesting and have the potential of introducing errors. </p>
+                    <p><strong>Example 12:</strong> This example describes the Nested of HTML Table.</p>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HMTL
+                            </h5>
+                            <pre>
+<span><</span>!DOCTYPE html>
+<span><</span>html>
+
+<span><</span>body>
+<span><</span>table border=5 bordercolor=black>
+<span><</span>tr>
+<span><</span>td> First Column of Outer Table <span><</span>/td>
+<span><</span>td>
+<span><</span>table border=5 bordercolor=grey>
+<span><</span>tr>
+<span><</span>td> First row of Inner Table <span><</span>/td>
+<span><</span>/tr>
+<span><</span>tr>
+<span><</span>td> Second row of Inner Table <span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/td>
+<span><</span>/tr>
+<span><</span>/table>
+<span><</span>/body>
+
+<span><</span>/html>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <p><strong>OUTPUT :</strong></p>
+                <img src="Screen-Shot-2017-11-16-at-4.29.26-PM.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <div class="container text text-center">
+                <a href="html_basic_web_image.html">
+                    <button type="button" class="btn btn-outline-success">
+                <<< HTML Images</button></a>
+                <a href="html_basic_web_lists.html"><button type="button" class="btn btn-outline-success">Go To
+                HTML Lists
+                >>></button></a>
+            </div>
+        </div>
+    </main>
+    <!-- footer start hai -->
+    <footer class="py-5 px-5">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="features.html" class="nav-link p-0 text-muted">Features</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <form>
+                        <h5><strong>Subscribe,</strong> for when we upload study material</h5>
+                        <p>We upload C programming language,Web devlopment and Java.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <a href="index.html"><button class="btn btn-outline-success"
+                                    type="button">Subscribe</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Hello Engineers, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://instagram.com/babu_.patel_._"><img
+                            src="instagram.png" alt="logo" class="bi" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:harshrajsinha1@gmail.com"><img src="mail.png"
+                            alt="logo" class="bi" height="30"></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://wa.me/+916203086263?text=hello"><img
+                            src="whatsapp.png" alt="logo" class="bi" height="29"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
